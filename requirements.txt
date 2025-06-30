@@ -1,0 +1,19 @@
+# ==== Çekirdek ====
+streamlit
+python-dotenv
+openai              # OpenRouter API çağrıları için
+langchain
+langchain_community
+sentence-transformers
+faiss-cpu
+pymupdf             # PDF okuma
+scikit-learn
+joblib
+
+# ==== İsteğe bağlı / raporlar ====
+matplotlib          # grafik gerekiyorsa
+seaborn             # (matplotlib’e bağlı)
+openpyxl            # Excel okuma/yazma
+pdfplumber          # alternatif PDF parser
+evaluate            # model değerlendirme metrikleri
+fpdf                # PDF oluşturma
